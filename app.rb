@@ -9,7 +9,7 @@ class App < Sinatra::Base
   
 
 	get '/' do
-	  reb :index
+	  erb :index
 		
 	end
 end
